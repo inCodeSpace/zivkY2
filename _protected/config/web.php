@@ -46,9 +46,9 @@ $config = [
             'class' => 'yii\caching\FileCache',
         ],
         'urlManager' => [
-            'class' => 'yii\web\UrlManager',
+            /*'class' => 'yii\web\UrlManager',
             'enablePrettyUrl' => true,
-            'showScriptName' => false,
+            'showScriptName' => false,*/
         ],
         'user' => [
             'identityClass' => 'app\models\UserIdentity',
